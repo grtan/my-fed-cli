@@ -1,0 +1,39 @@
+{
+  "name": "my-fed-cli",
+  "version": "0.0.1",
+  "description": "my fed cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grtan/my-fed-cli.git"
+  },
+  "keywords": [
+    "fed",
+    "cli"
+  ],
+  "author": "grtan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grtan/my-fed-cli/issues"
+  },
+  "homepage": "https://github.com/grtan/my-fed-cli#readme",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "commander": "^2.17.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.0.0"
+  },
+  "bin": {
+    "fed": "./bin/fed.js"
+  },
+  "template": {
+    "repository": "git@github.com:grtan/cli-template.git",
+    "type": {
+      "vue单页应用": "vue-spa",
+      "vue组件库": "vue-component-lib"
+    }
+  }
+}
